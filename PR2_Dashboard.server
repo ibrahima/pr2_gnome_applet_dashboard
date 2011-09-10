@@ -1,0 +1,26 @@
+<oaf_info>
+    <oaf_server iid="OAFIID:PR2_Dashboard"
+        type="exe"
+        location="/home/ibrahim/pr2_gnome_applet_dashboard/scripts/applet.py">
+        <oaf_attribute name="repo_ids" type="stringv">
+            <item value="IDL:Bonobo/GenericFactory:1.0"/>
+            <item value="IDL:Bonobo/Unknown:1.0"/>
+        </oaf_attribute>
+        <oaf_attribute name="name" type="string" value="PR2 Dashboard GNOME Applet"/>
+        <oaf_attribute name="description" type="string" value="A GNOME applet that serves as a PR2 dashboard."/>
+    </oaf_server>
+    <oaf_server iid="OAFIID:PR2Dashboard"
+        type="factory"
+        location="OAFIID:PR2Dashboard_Factory">
+        <oaf_attribute name="repo_ids" type="stringv">
+            <item value="IDL:GNOME/Vertigo/PanelAppletShell:1.0"/>
+            <item value="IDL:Bonobo/Control:1.0"/>
+            <item value="IDL:Bonobo/Unknown:1.0"/>
+        </oaf_attribute>
+        <oaf_attribute name="name" type="string" value="PR2 Dashboard"/>
+        <oaf_attribute name="description" type="string" value="PR2 Dashboard"/>
+        <oaf_attribute name="panel:category" type="string" value="Utility"/>
+        <oaf_attribute name="panel:icon" type="string" value="gnome-laptop.png"/>
+    </oaf_server>
+</oaf_info>
+
