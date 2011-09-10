@@ -1,0 +1,22 @@
+<package>
+  <description brief="pr2_gnome_applet_dashboard">
+
+     pr2_gnome_applet_dashboard
+
+  </description>
+  <author>Ibrahim Awwal</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/pr2_gnome_applet_dashboard</url>
+  <depend package="rxtools"/>
+  <depend package="robot_monitor"/>
+  <depend package="rospy"/>
+  <depend package="roslib"/>
+  <depend package="std_srvs"/>
+  <depend package="std_msgs"/>
+  <depend package="pr2_power_board"/>
+  <depend package="pr2_msgs"/>
+
+</package>
+
+
